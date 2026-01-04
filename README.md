@@ -2,6 +2,9 @@
 
 A simple, responsive web application to search for GitHub users and view their profiles using the GitHub Users API.
 
+**[🔴 Live Demo](https://bkkothari2255.github.io/github-user-finder/)**
+![alt text](image.png)
+
 ## Features
 
 - **User Search**: Search for any GitHub user by their username.
