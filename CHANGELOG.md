@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-01-06
+### Added
+- **Backend Integration**: Connected to a local Java backend (`http://localhost:8080`) to persist favorite developers.
+- **Favorites System**: Users can now "Save" a searched developer and view a list of saved favorites.
+- **Styling**: Created `style.css` and migrated all inline styles to it for better separation of concerns.
+- **UI Improvements**: Enhanced card designs, buttons with hover effects, and a responsive grid layout for favorites.
+
+
 ## [1.1.0] - 2026-01-06
 ### Added
 - **Persistence**: Application now saves the last searched username in local storage and restores it on reload.

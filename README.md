@@ -15,8 +15,14 @@ A simple, responsive web application to search for GitHub users and view their p
   - Direct link to the GitHub profile
 - **Error Handling**: Friendly message when a user is not found.
 - **Keyboard Support**: Press `Enter` to trigger the search.
+- **Favorites Manager**: Save interesting profiles to your personal list (requires backend).
 - **Persistence**: Automatically saves and loads the last searched user.
 - **Responsive Design**: Clean and simple card layout that works on different screen sizes.
+
+## Backend Requirement
+
+To use the "Favorites" feature, ensure the local Java backend is running on port `8080`.
+
 
 ## Technologies Used
 
