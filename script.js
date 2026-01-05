@@ -10,13 +10,13 @@ async function fetchUser(user) {
             profile.innerHTML = `<p class="error">User not found!</p>`;
             return;
         }
+        localStorage.setItem("last_github_user", user);
         profile.innerHTML = `
         <img src="${data.avatar_url}" alt="Avatar" class="avatar">
         <h3>${data.name || data.login}</h3> 
         <p>${data.bio || "No bio available."}</p>
         <a href="${data.html_url}" target="_blank">View Profile</a>
         `;
-
         username.value = "";
    }
    catch(error){
@@ -36,3 +36,10 @@ username.addEventListener("keypress", (event) => {
         button.click(); 
     }
 });
+
+const savedUser = localStorage.getItem("last_github_user");
+
+if (savedUser) {
+    fetchUser(savedUser);
+    username.value = savedUser;
+}
