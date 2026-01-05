@@ -15,6 +15,7 @@ A simple, responsive web application to search for GitHub users and view their p
   - Direct link to the GitHub profile
 - **Error Handling**: Friendly message when a user is not found.
 - **Keyboard Support**: Press `Enter` to trigger the search.
+- **Persistence**: Automatically saves and loads the last searched user.
 - **Responsive Design**: Clean and simple card layout that works on different screen sizes.
 
 ## Technologies Used

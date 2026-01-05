@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-01-06
+### Added
+- **Persistence**: Application now saves the last searched username in local storage and restores it on reload.
+- **Loading State**: Visual indication ("Loading...") while fetching user data.
+
+### Changed
+- **Refactor**: Extracted GitHub API logic into a separate `GithubService` class for better code organization and maintainability.
+- **Error Handling**: Improved error catching and display messages.
+
+
 ## [1.0.0] - 2026-01-04
 ### Added
 - Initial project structure.
